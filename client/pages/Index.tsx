@@ -509,7 +509,7 @@ function Brands() {
   return (
     <section className="py-12 md:py-16 w-full flex items-center justify-center">
       <img
-        src="https://cdn.builder.io/api/v1/image/assets%2F2f908738b06245ae853e48a3298fd087%2F8aa81f44832541169282cd3acb910a69?format=webp&width=1600&height=2400"
+        src="./images/assets_2f908738b06245ae853e48a3298fd087_8aa81f44832541169282cd3acb910a69.webp"
         alt="Brands"
         className="w-screen h-auto object-contain"
         style={{ filter: "contrast(1.2) brightness(1.05)" }}
@@ -584,14 +584,14 @@ function Hero() {
     <section className="relative bg-white overflow-hidden min-h-[700px] flex items-center">
       {/* Background decorations */}
       <img
-        src="https://cdn.builder.io/api/v1/image/assets%2F2f908738b06245ae853e48a3298fd087%2F5bb479b7b07c446b9d675db4d0dfedb8?format=webp&width=800&height=1200"
+        src="./images/assets_2f908738b06245ae853e48a3298fd087_5bb479b7b07c446b9d675db4d0dfedb8.webp"
         alt=""
         aria-hidden
         className="absolute pointer-events-none"
         style={{ width: 707, height: 537, transform: "rotate(156.39deg)", opacity: 0.6, right: -100, top: 0 }}
       />
       <img
-        src="https://cdn.builder.io/api/v1/image/assets%2F2f908738b06245ae853e48a3298fd087%2F636a1aed3de54d569b81ff787d9770b8?format=webp&width=800&height=1200"
+        src="./images/assets_2f908738b06245ae853e48a3298fd087_636a1aed3de54d569b81ff787d9770b8.webp"
         alt=""
         aria-hidden
         className="absolute pointer-events-none"
@@ -619,12 +619,12 @@ function Hero() {
 
           <div className="flex items-center gap-3">
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/922f28fba55b28cadf9a176e80d709f4be6b73c2?width=247"
+              src="./images/922f28fba55b28cadf9a176e80d709f4be6b73c2.png"
               alt="App Store"
               className="h-9 rounded-lg object-contain"
             />
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/16bb703ec8f7f2c5adf4d035362e6eef8107da89?width=247"
+              src="./images/16bb703ec8f7f2c5adf4d035362e6eef8107da89.png"
               alt="Google Play"
               className="h-9 rounded-lg object-contain"
             />
@@ -634,7 +634,7 @@ function Hero() {
         {/* Right: Car image */}
         <div className="relative flex items-center justify-center z-10 -mr-[50%] lg:-mr-[25%]">
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/a910e6645f92480ee973c59c73a5a26f49034ee8?width=1852"
+            src="./images/36577-5-mercedes-benz-free-download.png"
             alt="Car"
             className="max-w-[700px] object-contain drop-shadow-xl self-stretch"
           />
@@ -648,22 +648,22 @@ function Hero() {
 function WhyChooseUs() {
   const features = [
     {
-      icon: "https://api.builder.io/api/v1/image/assets/TEMP/20506789fc088672720cc973296b60a20db323cb?width=128",
+      icon: "./images/20506789fc088672720cc973296b60a20db323cb.png",
       title: "Лучшая цена гарантирована",
       desc: "Найдете более низкую цену?\nМы вернем вам 100% разницы.",
     },
     {
-      icon: "https://api.builder.io/api/v1/image/assets/TEMP/31724683c7dce67b07819c6686b594a70a9dca9b?width=128",
+      icon: "./images/31724683c7dce67b07819c6686b594a70a9dca9b.png",
       title: "Опытный водитель",
       desc: "У вас нет водителя? Не волнуйтесь, у нас есть много опытных водителей для вас.",
     },
     {
-      icon: "https://api.builder.io/api/v1/image/assets/TEMP/4957cf1b55de7a3081e9a2f17b49a3b1baef1afc?width=128",
+      icon: "./images/4957cf1b55de7a3081e9a2f17b49a3b1baef1afc.png",
       title: "24-часовая доставка автомобиля",
       desc: "Закажите свой автомобиль в любое время, и мы доставим его непосредственно к вам.",
     },
     {
-      icon: "https://api.builder.io/api/v1/image/assets/TEMP/aa219b7b89925734d291020419642b5ef359023d?width=128",
+      icon: "./images/aa219b7b89925734d291020419642b5ef359023d.png",
       title: "Круглосуточная техническая поддержка",
       desc: "У вас есть вопросы? Обращайтесь в службу поддержки Rentcars в любое время.",
     },
@@ -672,15 +672,9 @@ function WhyChooseUs() {
   return (
     <section className="relative bg-white overflow-hidden py-16 md:py-24">
       {/* Background decorations */}
+
       <img
-        src="https://cdn.builder.io/api/v1/image/assets%2F2f908738b06245ae853e48a3298fd087%2Fb186750866ff4fbb8fcfdbefa1c0fed6?format=webp&width=800&height=1200"
-        alt=""
-        aria-hidden
-        className="absolute pointer-events-none"
-        style={{ width: 707, height: 537, transform: "rotate(-23.61deg)", opacity: 0.6, left: -300, top: -97 }}
-      />
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets%2F2f908738b06245ae853e48a3298fd087%2Fb186750866ff4fbb8fcfdbefa1c0fed6?format=webp&width=800&height=1200"
+        src="./images/assets_2f908738b06245ae853e48a3298fd087_b186750866ff4fbb8fcfdbefa1c0fed6 (1).webp"
         alt=""
         aria-hidden
         className="absolute pointer-events-none"
@@ -691,9 +685,9 @@ function WhyChooseUs() {
         {/* Left: Car image */}
         <div className="relative flex items-center justify-center -ml-[100%] lg:-ml-[50%]">
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/6029cf0ecc8626cc58d83cc0e66348812ff7b6a7?width=1626"
+            src="./images/why-choose-shayar.webp"
             alt="Audi"
-            className="w-full max-w-[600px] object-contain drop-shadow-xl"
+            className="w-full max-w-[800px] object-contain drop-shadow-xl"
           />
         </div>
 
@@ -736,7 +730,7 @@ function CarFleet() {
       ac: true,
       horsepower: 110,
       price: "4 465",
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/d89e451fb9fe7d6cb61d5a09b612c06163c945e7?width=416",
+      image: "./images/d89e451fb9fe7d6cb61d5a09b612c06163c945e7.png",
     },
     {
       name: "BMW 218 M Sport Pro",
@@ -747,7 +741,7 @@ function CarFleet() {
       ac: true,
       horsepower: 140,
       price: "7 315",
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/678b64b20414e92363745d953152bde154c64e97?width=466",
+      image: "./images/678b64b20414e92363745d953152bde154c64e97.png",
     },
     {
       name: "Geely Preface Flagship",
@@ -758,7 +752,7 @@ function CarFleet() {
       ac: true,
       horsepower: 200,
       price: "7 040",
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/9668716e3f387b488cd9f219598f5896f5d5e9a1?width=436",
+      image: "./images/9668716e3f387b488cd9f219598f5896f5d5e9a1.png",
     },
     {
       name: "GAC Trumpchi M8 I",
@@ -769,7 +763,7 @@ function CarFleet() {
       ac: true,
       horsepower: 252,
       price: "11 305",
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/93b37e45721a6872cacc670ce3c203fe6847d781?width=400",
+      image: "./images/93b37e45721a6872cacc670ce3c203fe6847d781.png",
       isNew: true,
     },
   ];
@@ -825,21 +819,21 @@ function Testimonials() {
       text: "Я пользуюсь вашими услугами уже 3 года. У вас отличный сервис, я буду продолжать пользоваться вашим сервисом.",
       name: "Анна Фролова",
       location: "",
-      image: "https://cdn.builder.io/api/v1/image/assets%2F2f908738b06245ae853e48a3298fd087%2F65e740f3a6ad4db1891ba455fe7c1d1f?format=webp&width=800&height=1200",
+      image: "./images/assets_2f908738b06245ae853e48a3298fd087_65e740f3a6ad4db1891ba455fe7c1d1f.webp",
     },
     {
       rating: "5.0",
       text: "Я чувствую себя в полной безопасности, когда пользуюсь услугами WOOP. Ваша команда по работе с клиентами полна энтузиазма, а водитель всегда приезжает вовремя.",
       name: "Роман Иванов",
       location: "",
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/f7c1bab798d7372d0d897ea1f4c584ea4d1b48e0?width=794",
+      image: "./images/f7c1bab798d7372d0d897ea1f4c584ea4d1b48e0.png",
     },
     {
       rating: "5.0",
       text: '"I feel very secure when using caretall\'s services. Your customer care team is very enthusiastic and the driver is always on time."',
       name: "Charlie Johnson",
       location: "From New York, US",
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/5223e919423011a53b0c2bebfa09edd1c4943dac?width=794",
+      image: "./images/5223e919423011a53b0c2bebfa09edd1c4943dac.png",
     },
   ];
 
@@ -847,14 +841,14 @@ function Testimonials() {
     <section className="bg-[#CFE3F9] py-16 md:py-24 overflow-hidden relative">
       {/* Decorative elements */}
       <img
-        src="https://api.builder.io/api/v1/image/assets/TEMP/e6b48a8e144494a9b394f7c000dd5fc354b770d5?width=584"
+        src="./images/e6b48a8e144494a9b394f7c000dd5fc354b770d5.png"
         alt=""
         aria-hidden
         className="absolute pointer-events-none opacity-10 w-[292px] h-[310px]"
         style={{ left: 137, top: 90 }}
       />
       <img
-        src="https://api.builder.io/api/v1/image/assets/TEMP/feb864939875b6676d2e9a0049022626d06833cd?width=558"
+        src="./images/feb864939875b6676d2e9a0049022626d06833cd.png"
         alt=""
         aria-hidden
         className="absolute pointer-events-none opacity-10 w-[279px] h-[297px]"
@@ -863,14 +857,14 @@ function Testimonials() {
 
       {/* Quote marks decorations */}
       <img
-        src="https://cdn.builder.io/api/v1/image/assets%2F2f908738b06245ae853e48a3298fd087%2F0477670fa36043bba61bdabb016c77ee?format=webp&width=800&height=1200"
+        src="./images/assets_2f908738b06245ae853e48a3298fd087_4c54d2ab20dd401aa3e9268bd8eed2d0.webp"
         alt=""
         aria-hidden
         className="absolute pointer-events-none w-[100px] h-[100px] md:w-[150px] md:h-[150px]"
         style={{ left: 20, top: 50 }}
       />
       <img
-        src="https://cdn.builder.io/api/v1/image/assets%2F2f908738b06245ae853e48a3298fd087%2F4c54d2ab20dd401aa3e9268bd8eed2d0?format=webp&width=800&height=1200"
+        src="./images/assets_2f908738b06245ae853e48a3298fd087_0477670fa36043bba61bdabb016c77ee.webp"
         alt=""
         aria-hidden
         className="absolute pointer-events-none w-[100px] h-[100px] md:w-[150px] md:h-[150px]"
@@ -928,14 +922,14 @@ function DownloadApp() {
   return (
     <section className="relative bg-white overflow-hidden py-0">
       <img
-        src="https://cdn.builder.io/api/v1/image/assets%2F2f908738b06245ae853e48a3298fd087%2Fe232073aa03d486086c39474f09d00b1?format=webp&width=800&height=1200"
+        src="./images/assets_2f908738b06245ae853e48a3298fd087_e232073aa03d486086c39474f09d00b1.webp"
         alt=""
         aria-hidden
         className="absolute pointer-events-none"
         style={{ width: 612, height: 464, transform: "rotate(156.39deg)", opacity: 0.6, right: -100, top: 200 }}
       />
       <img
-        src="https://cdn.builder.io/api/v1/image/assets%2F2f908738b06245ae853e48a3298fd087%2F630bcb9961244d9d96fa07213b0694ef?format=webp&width=800&height=1200"
+        src="./images/assets_2f908738b06245ae853e48a3298fd087_630bcb9961244d9d96fa07213b0694ef.webp"
         alt=""
         aria-hidden
         className="absolute pointer-events-none"
@@ -946,7 +940,7 @@ function DownloadApp() {
         {/* Left */}
         <div className="flex flex-col gap-8">
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/54dde1981734900d6931f31a78f5493346417534?width=358"
+            src="./images/54dde1981734900d6931f31a78f5493346417534.png"
             alt="WOOP"
             className="h-9 object-contain self-start"
           />
@@ -959,12 +953,12 @@ function DownloadApp() {
           </p>
           <div className="flex items-center gap-4">
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/87281a42e4012fe1d1d2723abfcc79070d5fe07a?width=350"
+              src="./images/87281a42e4012fe1d1d2723abfcc79070d5fe07a.png"
               alt="App Store"
               className="h-12 rounded-xl object-contain"
             />
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/0f883083ac97ded3c2e73a2472609bfc8d190b67?width=350"
+              src="./images/0f883083ac97ded3c2e73a2472609bfc8d190b67.png"
               alt="Google Play"
               className="h-12 rounded-xl object-contain"
             />
@@ -973,9 +967,9 @@ function DownloadApp() {
 
         {/* Right: Phone mockup */}
         <div className="relative flex items-center justify-center lg:justify-center -mr-[100px] lg:-mr-[150px]">
-          <div className="relative" style={{ width: 420, height: 850 }}>
+          <div className="relative" style={{ width: 900, height: 1000 }}>
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F2f908738b06245ae853e48a3298fd087%2Fb963958a940d47008e77e73140ae45c5?format=webp&width=800&height=1200"
+              src="./images/psd_black_smartphone_with_blank_screen_isolated2.png"
               alt="App mockup"
               className="absolute inset-0 w-full h-full object-contain"
             />
@@ -995,14 +989,14 @@ function Footer() {
           {/* Column 1: Contact */}
           <div className="flex flex-col gap-6">
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/5a620dd69dc35c5e671fdc8f889714fd506fcf5a?width=232"
+              src="./images/5a620dd69dc35c5e671fdc8f889714fd506fcf5a.png"
               alt="WOOP"
               className="h-6 object-contain self-start"
             />
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-3">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/80298e4192fedc64fa8a37d931ea3176f5fa7302?width=40"
+                  src="./images/80298e4192fedc64fa8a37d931ea3176f5fa7302.png"
                   alt=""
                   className="w-5 h-5"
                 />
@@ -1046,10 +1040,10 @@ function Footer() {
             </div>
             <div className="flex gap-3 pt-2">
               {[
-                "https://api.builder.io/api/v1/image/assets/TEMP/ea02d4e615db300936cb705cfea9926ddef4b044?width=64",
-                "https://api.builder.io/api/v1/image/assets/TEMP/daae33d3e8756353c8653adbe1d3ecf3602e0a68?width=64",
-                "https://api.builder.io/api/v1/image/assets/TEMP/b542fea896f5dbff753b2d2733029195d4338042?width=64",
-                "https://api.builder.io/api/v1/image/assets/TEMP/36e75943bdcfeeec7a9999ac4fe38b4405abdc47?width=64",
+                "./images/ea02d4e615db300936cb705cfea9926ddef4b044.png",
+                "./images/daae33d3e8756353c8653adbe1d3ecf3602e0a68.png",
+                "./images/b542fea896f5dbff753b2d2733029195d4338042.png",
+                "./images/36e75943bdcfeeec7a9999ac4fe38b4405abdc47.png",
               ].map((src, i) => (
                 <a key={i} href="#" className="w-8 h-8">
                   <img src={src} alt="Social" className="w-8 h-8 object-contain" />
